@@ -1,0 +1,10 @@
+server {
+ listen 80;
+ server_name cicd;
+ root /var/www/ci-cd-pipeline;
+ access_log /var/log/nginx/ci_cd.access.log;
+ error_log /var/log/nginx/ci_cd.error.log;
+ location / {
+ index index.html;
+ }
+}

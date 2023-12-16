@@ -1,7 +1,7 @@
 # ci-cd-pipeline2
 Created a repo named ci-cd-pipeline2 with Readme.md file, with private scope. 
 
-Created an index.html file which displays Hi in the browser.
+Created an index.html file which displays Hello in the browser.
 Created EC2 instance using Ubuntu AMI, t2.micro type, key-value pairs and SSH connections, named gi_cicd_pipeline.
 
 Connected to EC2 instance and installed nginx by

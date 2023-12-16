@@ -42,6 +42,8 @@ Created a cronjob in crontab that runs every minute and executes commit_check.py
 
 Every new commit to index.html triggers the cronjob and the code is pulled and deployed in nginx.
 
+The files directory in this repo contains the configuration and code.
+
 
 
 
